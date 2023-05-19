@@ -1,0 +1,6 @@
+<section *ngIf="website && website.Page"  [ngStyle]="website.Page.PcStyles">
+    <div appUiRender pagePrefix="preview"></div>
+    <!-- <ng-container *ngFor="let section of website.Page.Sections">
+        <app-smart-tree [root]="section"></app-smart-tree>
+    </ng-container> -->
+</section>
